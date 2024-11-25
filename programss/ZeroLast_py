@@ -1,0 +1,14 @@
+#print(dir(str))
+# Moving Zeroes
+nums=list(map(int,input().split()))
+list1=[]
+list2=[]
+for i in nums:
+    if(i==0):
+        list1.append(i)
+    else:
+        list2.append(i)
+print(list1+list2)
+
+#  intpu :2 4 7 0 9 0 7 
+#  output : 0 0 2 4 7 9 7
